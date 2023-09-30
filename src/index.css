@@ -1,13 +1,72 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.side-bar {
+  height: 100vh;
+  background: linear-gradient(#1075bb 0%, #102b73 100%);
+}
+.nav-bar {
+  border-radius: 15px;
+  height: 62px;
+  background: linear-gradient(90deg, #1075bb 0%, #102a72 100%);
+}
+.mt-1-25rem {
+  margin-top: 1.25rem;
+}
+.mlr-19-20-rem {
+  margin-left: 1.1875rem; /* 19px = 1.1875rem */
+  margin-right: 1.25rem; /* 20px = 1.25rem */
+}
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card.border-color {
+  border: 1px solid #cbe9ff;
+}
+.btn.btn-create {
+  display: flex;
+  width: auto;
+  height: 40px;
+  padding: 5px 24px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background: #005faf;
+}
+.btn.btn-create:hover {
+  background-color: #005faf;
+}
+input.form-control.search {
+  height: 36px;
+  padding: 4px 18px;
+  border: 1px solid #abaaaa;
+  border-radius: 4px;
+  color: #abaaaa;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 4px;
+}
+.table.table-striped.custom {
+  border-collapse: separate;
+  border-spacing: 0;
+  outline: 1px solid #CBE9FF;
+  font-size: 14px;
+}
+.table thead tr th{
+  line-height: 40px;
+  background-color: #CBE9FF;
+}
+.table tbody tr td{
+  line-height: 50px;
+}
+.custom-table tbody tr:nth-child(odd) {
+  background-color: white;
 }
